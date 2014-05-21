@@ -51,7 +51,7 @@ var realtime = (function (graphBuilder, thothApi, chartsData, d3) {
       var self = this;
       this.timeout = setInterval(function () {
         self._update();
-      }, 500);
+      }, 2000);
     },
 
     hide: function () {
